@@ -1,0 +1,12 @@
+FINDINGS FOR HW 7 PART 2, SHISHIR TIMSINA
+
+Compare KNN and SVM:
+	
+	I think my KNN is not completely correct, the accuracy i recieve is much lower 
+	although I do see an increase in accuracy with a higher k value, its just very small.
+	When compared to the SVM, SVM has an accuracy of 0.565 whereas the best KNN accuracy is
+	only 0.01. The plot does not help with the visualization because only the line for SVM 
+	is seen properly.
+	The other KNN plots are too close to zero. Higher k values seems to result in a higher accuracy
+	but KNN does not always have that liner relationship. 
+	

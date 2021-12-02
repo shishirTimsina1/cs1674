@@ -1,0 +1,32 @@
+function [bow_repr] = computeBOWRepr(features, means)
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+
+%filenames{ind};
+filenames = {'means_k2.mat', 'means_k2.mat', 'means_k2.mat', 'means_k2.mat',...
+                'means_k2.mat', 'means_k2.mat'};
+
+[~, col] = size(filenames);
+
+bow_repr = zeros(1,6);
+
+[sz,~] = size(features);
+
+for ind =1:sz
+   curRow = features(1,:);
+   for ind2 = 1:col
+      means = load(filenames{ind2});
+      means2 = means.means;
+      [ith,~] = size(means2);
+      for ind3 = 1:ith
+        matrix(ind3,:) = pdist2(curRow, means2(ind3,:));
+        smol = min(matrix);
+        
+      end
+       
+   end
+    
+    
+end  
+            
+end

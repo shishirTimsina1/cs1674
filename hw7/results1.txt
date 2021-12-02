@@ -1,0 +1,12 @@
+FINDINGS FOR HW 7 PART 2, SHISHIR TIMSINA
+
+SVM Classifiers:
+	As expected, the test_SPM_pyramid was the most accurate. The accuracies were as follows
+	test_SPM_pyramid = .5650
+	train_SPM_level_1 = .5525
+	train_SPM_level_0 = .4175
+	
+	The higher "level" we went the more accurate we became. However, the first level was gave a 
+	bigger jump from level 0 to 1, compared to level 1 to pyramid. We got better results 
+	the higher we went because we sort of honed in on a feature in sections rather than look at them
+	all at once.

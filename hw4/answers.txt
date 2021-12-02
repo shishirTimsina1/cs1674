@@ -1,0 +1,10 @@
+Shishir Timsina
+
+1)the ratio for the texture mean was the smallest
+  the "within_dists" values however shows the the second value was smaller. Ratio wise, mean is smaller.
+2)yes
+3)yes
+4)the k=5 was the smallest ratio
+5) not  what i expected, i was thinking maybe there would be a gradual change in either direction (either larger k... 
+    would have smaller ratio or vice a verce) but for me, just the k=5 ratio was smaller and the change between k values...
+    was not consistent( higher k had smaller ratios as well as lower ratios than thier other k values)
