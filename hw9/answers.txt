@@ -1,0 +1,14 @@
+Shishir Timsina
+HW 9 
+
+Part I
+	I saw a low performance. I think this is because of the smaller size of training files,
+	and maybe something to do with the options we set.
+
+Part II
+	I saw a better performance when compared to part_i. The layers imported from AlexNet seem to have
+	helped.
+
+Part III
+	
+	
