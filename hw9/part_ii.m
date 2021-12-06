@@ -1,4 +1,9 @@
-digitDatasetPath = fullfile('C:\Users\shish\Desktop\cs1674\hw9');
+net = alexnet;
+%analyzeNetwork(net)
+layersTransfer = net.Layers(1:end-9);
+
+
+digitDatasetPath = fullfile('C:\Users\shish\Desktop\cs1674\Homeworks\hw9');
 imds = imageDatastore(digitDatasetPath, ...
     'IncludeSubfolders',true, ...
     'LabelSource','foldernames');
@@ -25,10 +30,7 @@ options = trainingOptions('sgdm', ...
 
 
 net = trainNetwork(imdsTrain,layers,options);
-net = alexnet('Weights', 'none');
-analyzeNetwork(net)
 
-layersTransfer = net.Layers(1:end-9);
 inputSize = net.Layers(1).InputSize
 YPred = classify(net,imdsTest);
 YTest = imdsTest.Labels;

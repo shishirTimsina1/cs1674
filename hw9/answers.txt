@@ -4,11 +4,13 @@ HW 9
 Part I
 	I saw a low performance. I think this is because of the smaller size of training files,
 	and maybe something to do with the options we set.
+    I was getting accuracy of 0.14
 
 Part II
 	I saw a better performance when compared to part_i. The layers imported from AlexNet seem to have
 	helped.
+    I was getting accuracy of 0.48
 
 Part III
-	
-	
+	For some reason I saw less performance in part iii
+	I was getting accuracy of 0.33
